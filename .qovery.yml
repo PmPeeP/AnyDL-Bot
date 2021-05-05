@@ -1,0 +1,11 @@
+---
+application:
+  name: "anydl-bot"
+  project: "AnyDL"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-anydl-bot"
+  routes:
+  - application_name: "anydl-bot"
+    paths:
+    - "/*"
